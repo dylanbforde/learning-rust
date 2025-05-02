@@ -12,4 +12,30 @@ fn main(){
     let y: u64 = 100;
     println!("Signed Integer: {}", x);
     println!("Unsigned Integer: {}", y);
+
+    // diff between i32 (32 bits) and i64 (64 bits)
+    // range :
+    // i32 - 2^31
+    // i32 - 2^63
+
+    let e: i32 = 2147483647; // if 1 is added this fails to compile
+    let i: i64 = 9223372036854775807; // if 1 is added this fails to compile
+    println!("Maximum value of i32: {}", e);
+    println!("Maximum vlaue of i64: {}", i);
+
+
+    // Floats
+    // f32, f64
+    let pi: f64 = 3.14;
+    println!("Value of pi {}", pi);
+
+    // Boolean Values
+    let is_bool: bool = true;
+    println!("is this true {}", is_bool);
+
+    // Character type
+    let letter: char = 'a';
+    println!("first letter of the alphabet: {}", letter);
+
+
 }
