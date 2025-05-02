@@ -37,5 +37,4 @@ fn main(){
     let letter: char = 'a';
     println!("first letter of the alphabet: {}", letter);
 
-
 }
