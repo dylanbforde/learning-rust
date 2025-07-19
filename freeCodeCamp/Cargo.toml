@@ -1,0 +1,22 @@
+[package]
+name = "freeCodeCamp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "hello_world"
+path = "src/hello_world.rs"
+
+[[bin]]
+name = "primitive_types"
+path = "src/primitive_types.rs"
+
+[[bin]]
+name = "compound_data_types"
+path = "src/compound_data_types.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
